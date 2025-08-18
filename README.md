@@ -73,11 +73,14 @@ We use the same environment as Qwen 2.5-vl, refer to https://github.com/QwenLM/Q
 If you find our paper and code useful in your research, please consider giving a star ⭐ and citation 📝 :)
 
 ```latex
-@article{MCA-Bench,
-  title={MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness Against VLM-based Attacks},
-  author={Wu, Zonglin and Xue, Yule and Wei, Xin and Song, Yiren},
-  journal={arXiv preprint arXiv:2506.05982},
-  year={2025}
+@misc{wu2025mcabenchmultimodalbenchmarkevaluating,
+      title={MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness Against VLM-based Attacks}, 
+      author={Zonglin Wu and Yule Xue and Yaoyao Feng and Xiaolong Wang and Yiren Song},
+      year={2025},
+      eprint={2506.05982},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.05982}, 
 }
 ```
 
