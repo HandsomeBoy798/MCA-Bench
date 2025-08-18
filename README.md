@@ -15,11 +15,11 @@ Datasets are available at https://www.kaggle.com/datasets/luffy798/mca-benchmult
 
 Paper:https://arxiv.org/abs/2506.05982
 
-![Snipaste_2025-06-13_13-58-09](.\imgs\Snipaste_2025-06-13_13-58-09.png)
+![Snipaste_2025-06-13_13-58-09](./imgs/Snipaste_2025-06-13_13-58-09.png)
 
 # Method
 
-![Snipaste_2025-06-13_13-58-25](.\imgs\Snipaste_2025-06-13_13-58-25.png)
+![Snipaste_2025-06-13_13-58-25](./imgs/Snipaste_2025-06-13_13-58-25.png)
 
 # Performance
 
