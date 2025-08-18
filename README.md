@@ -1,7 +1,7 @@
 <center><strong>MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness Against VLM-based Attacks</strong></center>
 
 <div align="center">
-<strong>Zonglin Wu¹</strong>  <strong>Yule Xue¹</strong>  <strong>Xin Wei¹</strong>  <strong>Yiren Song²</strong><sup>★</sup><br>  
+<strong>Zonglin Wu¹</strong>  <strong>Yule Xue¹</strong>  <strong> Yaoyao Feng¹</strong>  <strong> Xiaolong Wang¹</strong>  <strong>Yiren Song²</strong><sup>★</sup><br>  
 <strong>¹</strong> Southwest University  <strong>²</strong> National University of Singapore<br>
 <sub>★ Correspondence to: <a href="mailto:songyiren725@gmail.com">songyiren725@gmail.com</a></sub>
 </div>
@@ -9,17 +9,17 @@
 
 # Introduction
 
-As automated attack techniques rapidly advance, CAPTCHAs remain a critical defense mechanism against malicious bots. However, existing CAPTCHA schemes encompass a diverse range of modalities—from static distorted text and obfuscated images to interactive clicks, sliding puzzles, and logic-based questions—yet the community still lacks a unified, large-scale, multimodal benchmark to rigorously evaluate their security robustness. To address this gap, we introduce MCA-Bench, a comprehensive and reproducible benchmarking suite that integrates heterogeneous CAPTCHA types into a single evaluation protocol. Leveraging a shared vision–language model backbone, we fine-tune specialized cracking agents for each CAPTCHA category, enabling consistent, cross-modal assessments. Extensive experiments reveal that MCA-Bench effectively maps the vulnerability spectrum of modern CAPTCHA designs under varied attack settings, and—crucially—offers the first quantitative analysis of how challenge complexity, interaction depth, and model solvability interrelate. Based on these findings, we propose three actionable design principles and identify key open challenges, laying the groundwork for systematic CAPTCHA hardening, fair benchmarking, and broader community collaboration. 
+As automated attack techniques rapidly advance, CAPTCHAs remain a critical defense mechanism against malicious bots. However, existing CAPTCHA schemes encompass a diverse range of modalities -- from static distorted text and obfuscated images to interactive clicks, sliding puzzles, and logic-based questions -- yet the community still lacks a unified, large-scale, multimodal benchmark to rigorously evaluate their security robustness. To address this gap, we introduce MCA-Bench, a comprehensive and reproducible benchmarking suite that integrates heterogeneous CAPTCHA types into a single evaluation protocol. Leveraging a shared vision-language model backbone, we fine-tune specialized cracking agents for each CAPTCHA category, enabling consistent, cross-modal assessments. Extensive experiments reveal that MCA-Bench effectively maps the vulnerability spectrum of modern CAPTCHA designs under varied attack settings, and crucially offers the first quantitative analysis of how challenge complexity, interaction depth, and model solvability interrelate. Based on these findings, we propose three actionable design principles and identify key open challenges, laying the groundwork for systematic CAPTCHA hardening, fair benchmarking, and broader community collaboration. Datasets and code are available online.
 
 Datasets are available at https://www.kaggle.com/datasets/luffy798/mca-benchmultimodal-captchas. 
 
 Paper:https://arxiv.org/abs/2506.05982
 
-![Snipaste_2025-06-13_13-58-09](.\imgs\Snipaste_2025-06-13_13-58-09.png)
+![Snipaste_2025-06-13_13-58-09](./imgs/Snipaste_2025-06-13_13-58-09.png)
 
 # Method
 
-![Snipaste_2025-06-13_13-58-25](.\imgs\Snipaste_2025-06-13_13-58-25.png)
+![Snipaste_2025-06-13_13-58-25](./imgs/Snipaste_2025-06-13_13-58-25.png)
 
 # Performance
 
